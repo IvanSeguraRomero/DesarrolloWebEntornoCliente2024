@@ -1,0 +1,17 @@
+.mensajes{
+    text-align:center;
+    flex-grow: 1;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.oculto{
+    display: none;
+}
+@media(max-width: 768px){
+    button.oculto{
+        display: block;
+    }
+}
